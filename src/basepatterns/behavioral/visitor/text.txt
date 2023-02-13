@@ -1,0 +1,20 @@
+public void release(Avtovaz lada)
+    {
+        if (lada is Granta)
+        {
+            do_smth1;
+            return;
+        }
+
+        if (lada is Vesta)
+        {
+            do_smth2;
+            return;
+        }
+
+        if (lada is Largus)
+        {
+            do_smth3;
+            return;
+        }
+    }

@@ -12,7 +12,7 @@ public class Sobes implements SobesTask{
 
     @Override
     public void be_done(Student student) {
-        for(SobesTask task: sobesTasks) {
+        for (SobesTask task: sobesTasks) {
             task.be_done(student);
         }
     }
